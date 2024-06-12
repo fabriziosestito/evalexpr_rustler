@@ -60,7 +60,7 @@ defmodule EvalEx.MixProject do
       {:rustler_precompiled, "~> 0.7.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
-      {:stream_data, "~> 0.5", only: [:dev, :test]}
+      {:stream_data, "~> 1.1", only: [:dev, :test]}
     ]
   end
 end
